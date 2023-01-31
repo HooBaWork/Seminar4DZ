@@ -1,0 +1,13 @@
+int[] A = new int[8];
+printArray(A[i]);
+            
+void printArray(int array)
+{
+    var rm = new Random();
+    for (int i = 0; i < A.Length; i++)
+    {
+    A[i] = rm.Next(0,15);
+    }
+
+}
+            
